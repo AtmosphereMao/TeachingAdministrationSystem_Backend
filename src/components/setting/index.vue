@@ -60,7 +60,7 @@
               <template v-slot:label>白色logo</template>
               <image-upload v-model="setting.meedu.system.white_logo" name="会员中心logo"></image-upload>
             </FormItem>
-            <FormItem>
+            <!-- <FormItem>
               <template v-slot:label>播放器封面</template>
               <image-upload v-model="setting.meedu.system.player_thumb" name="播放器封面"></image-upload>
             </FormItem>
@@ -71,7 +71,7 @@
             <FormItem>
               <template v-slot:label>网站统计js</template>
               <input type="text" v-model="setting.meedu.system.js" />
-            </FormItem>
+            </FormItem> -->
           </Form>
         </Cell>
 
@@ -572,19 +572,19 @@ export default {
           name: '缓存',
           key: 'cache'
         },
-        {
-          name: '社交登录',
-          key: 'sociallogin'
-        },
+        // {
+        //   name: '社交登录',
+        //   key: 'sociallogin'
+        // },
 
-        {
-          name: '短信',
-          key: 'sms'
-        },
-        {
-          name: '图片',
-          key: 'image'
-        },
+        // {
+        //   name: '短信',
+        //   key: 'sms'
+        // },
+        // {
+        //   name: '图片',
+        //   key: 'image'
+        // },
         {
           name: '支付',
           key: 'pay'
@@ -605,10 +605,10 @@ export default {
           name: '邀请',
           key: 'invite'
         },
-        {
-          name: '微信小程序',
-          key: 'wechatMini'
-        },
+        // {
+        //   name: '微信小程序',
+        //   key: 'wechatMini'
+        // },
         {
           name: '其它',
           key: 'other'

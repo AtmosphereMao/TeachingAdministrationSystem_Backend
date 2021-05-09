@@ -337,9 +337,9 @@ const initRouter = () => {
     }
     HeyUI.$LoadingBar.start();
     if (to.meta && to.meta.title) {
-      document.title = to.meta.title + ' - GsEdu';
+      document.title = to.meta.title + ' - TASystem';
     } else {
-      document.title = 'GsEdu';
+      document.title = 'TASystem';
     }
     isFirstRouter = false;
     next();

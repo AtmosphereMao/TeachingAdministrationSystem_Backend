@@ -4,7 +4,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const pp = '/admin/';
 
 module.exports = {
-  port: 9012,
+  port: 80,
   root: 'dist',
   stat: false,
   webpack: {
@@ -33,7 +33,7 @@ module.exports = {
       proxy: {
         // 此处应该配置为开发服务器的后台地址
         '/backend': {
-          target: 'https://kunpeng.xqinger.com'
+          target: 'localhost'
         }
       },
       historyApiFallback: true

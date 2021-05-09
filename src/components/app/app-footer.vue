@@ -11,7 +11,7 @@
 
 <template>
   <div class="app-footer">
-    PowerBy <a href="javascript:;" target="_blank">GsEdu</a>
+    PowerBy <a href="javascript:;" target="_blank">TASystem</a>
   </div>
 </template>
 <script>

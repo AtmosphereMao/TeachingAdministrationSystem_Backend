@@ -23,7 +23,7 @@
 }
 </style>
 <template>
-  <div class="app-logo"><router-link to="/"><span class="app-logo-text">GsEdu Admin</span></router-link></div>
+  <div class="app-logo"><router-link to="/"><span class="app-logo-text">TASystem Admin</span></router-link></div>
 </template>
 <script>
 export default {

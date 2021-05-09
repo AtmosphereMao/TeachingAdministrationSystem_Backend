@@ -107,7 +107,7 @@
   <div class="login-vue">
     <div class="login-container">
       <div class="login-content">
-        <div class="login-title">GsEdu</div>
+        <div class="login-title">TASystem</div>
         <div class="login-name login-input">
           <input type="text" name="username" v-model="login.username" autocomplete="off"/>
           <span class="placeholder" :class="{fixed: login.username != '' && login.username != null}">邮箱</span>
@@ -120,7 +120,7 @@
           <Button block color="primary" size="l" @click="submit">登录</Button>
         </div>
       </div>
-      <p class="copyright"> Copyright © 2019 - <a href="javascript:;">GsEdu</a></p>
+      <p class="copyright"> Copyright © 2019 - <a href="javascript:;">TASystem</a></p>
     </div>
   </div>
 </template>

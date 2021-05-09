@@ -27,10 +27,10 @@ const fullMenus = [{
     title: '首页Banner',
     key: 'IndexBanner'
   },
-  {
-    title: '推广链接',
-    key: 'AdFrom'
-  },
+  // {
+  //   title: '推广链接',
+  //   key: 'AdFrom'
+  // },
   {
     title: '课程评论',
     key: 'CourseComment'
@@ -98,10 +98,10 @@ const fullMenus = [{
     title: '首页导航',
     key: 'Nav'
   },
-  {
-    title: '插件',
-    key: 'Addons'
-  }
+  // {
+  //   title: '插件',
+  //   key: 'Addons'
+  // }
     // {
     //     title: '角色',
     //     key: 'AdministratorRole'
